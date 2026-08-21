@@ -1,0 +1,106 @@
+<section id="maquinas" class="bg-gray-50 py-12">
+
+  <div class="max-w-screen-xl mx-auto px-4">
+
+    <h2 class="text-3xl font-bold text-center mb-10">
+      Máquinas del gimnasio
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      @for (maquina of maquinas; track maquina.id) {
+
+        <div
+          (click)="verDetalle(maquina)"
+          class="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer hover:shadow-xl transition"
+          [class.grayscale]="!maquina.disponible"
+          [class.opacity-50]="!maquina.disponible"
+        >
+
+          <img
+            [src]="maquina.imagen"
+            [alt]="maquina.nombre"
+            class="w-full h-56 object-cover"
+          >
+
+          <div class="p-5">
+
+            <h3 class="text-xl font-bold mb-2">
+              {{ maquina.nombre }}
+            </h3>
+
+            @if (maquina.disponible) {
+              <p class="text-green-600 font-semibold">
+                Disponible
+              </p>
+            } @else {
+              <p class="text-gray-600 font-semibold">
+                No disponible
+              </p>
+            }
+
+          </div>
+
+        </div>
+
+      }
+
+    </div>
+
+  </div>
+
+</section>
+
+@if (maquinaSeleccionada) {
+
+  <div
+    class="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
+    (click)="cerrarModal()"
+  >
+
+    <div
+      class="bg-white rounded-lg shadow-lg max-w-md w-full mx-4 p-6"
+      (click)="$event.stopPropagation()"
+    >
+
+      <img
+        [src]="maquinaSeleccionada.imagen"
+        [alt]="maquinaSeleccionada.nombre"
+        class="w-full h-56 object-cover rounded-lg mb-4"
+      >
+
+      <h2 class="text-2xl font-bold mb-3">
+        {{ maquinaSeleccionada.nombre }}
+      </h2>
+
+      <p class="text-gray-600 mb-3">
+        {{ maquinaSeleccionada.descripcion }}
+      </p>
+
+      <p class="mb-3">
+        <strong>Músculos:</strong>
+        {{ maquinaSeleccionada.musculos }}
+      </p>
+
+      @if (maquinaSeleccionada.disponible) {
+        <p class="text-green-600 font-semibold">
+          Máquina disponible
+        </p>
+      } @else {
+        <p class="text-gray-600 font-semibold">
+          Máquina fuera de servicio
+        </p>
+      }
+
+      <button
+        (click)="cerrarModal()"
+        class="mt-5 w-full bg-blue-700 text-white py-2 rounded-lg hover:bg-blue-800"
+      >
+        Cerrar
+      </button>
+
+    </div>
+
+  </div>
+
+}
