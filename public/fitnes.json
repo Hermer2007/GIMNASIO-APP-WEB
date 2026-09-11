@@ -1,0 +1,136 @@
+{
+  "equipos": [
+    {
+      "id": 1,
+      "nombre": "Caminadora",
+      "imagen": "https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&w=800&q=80",
+      "categoria": "Cardio",
+      "descripcion": "Máquina diseñada para caminar, trotar o correr en interiores.",
+      "musculos": "Piernas y sistema cardiovascular",
+      "uso": "Entrenamiento cardiovascular, calentamiento y mejora de resistencia.",
+      "nivel": "Todos los niveles",
+      "disponible": true
+    },
+    {
+      "id": 2,
+      "nombre": "Bicicleta Estática",
+      "imagen": "https://images.unsplash.com/photo-1591741535018-d042766c62eb?auto=format&fit=crop&w=800&q=80",
+      "categoria": "Cardio",
+      "descripcion": "Bicicleta fija utilizada para realizar ejercicio cardiovascular sin desplazamiento.",
+      "musculos": "Cuádriceps, glúteos y pantorrillas",
+      "uso": "Pedaleo continuo con diferentes niveles de resistencia.",
+      "nivel": "Todos los niveles",
+      "disponible": true
+    },
+    {
+      "id": 3,
+      "nombre": "Banco de Press",
+      "imagen": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80",
+      "categoria": "Pecho",
+      "descripcion": "Banco utilizado para realizar ejercicios de press con barra o mancuernas.",
+      "musculos": "Pectorales, tríceps y hombros",
+      "uso": "Entrenamiento de fuerza para la parte superior del cuerpo.",
+      "nivel": "Intermedio",
+      "disponible": true
+    },
+    {
+      "id": 4,
+      "nombre": "Máquina de Poleas",
+      "imagen": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=800&q=80",
+      "categoria": "Fuerza",
+      "descripcion": "Sistema de cables y poleas que permite realizar diferentes ejercicios.",
+      "musculos": "Pecho, espalda, brazos y hombros",
+      "uso": "Ejercicios de fuerza mediante resistencia ajustable.",
+      "nivel": "Todos los niveles",
+      "disponible": true
+    },
+    {
+      "id": 5,
+      "nombre": "Zona de Mancuernas",
+      "imagen": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
+      "categoria": "Peso Libre",
+      "descripcion": "Área destinada al entrenamiento con mancuernas de diferentes pesos.",
+      "musculos": "Todo el cuerpo",
+      "uso": "Ejercicios libres de fuerza y musculación.",
+      "nivel": "Todos los niveles",
+      "disponible": true
+    },
+    {
+      "id": 6,
+      "nombre": "Máquina de Remo",
+      "imagen": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+      "categoria": "Cardio",
+      "descripcion": "Equipo que reproduce el movimiento realizado al remar.",
+      "musculos": "Espalda, brazos, abdomen y piernas",
+      "uso": "Entrenamiento cardiovascular y fortalecimiento general.",
+      "nivel": "Todos los niveles",
+      "disponible": true
+    },
+    {
+      "id": 7,
+      "nombre": "Máquina Smith",
+      "imagen": "https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad?auto=format&fit=crop&w=800&q=80",
+      "categoria": "Fuerza",
+      "descripcion": "Máquina con barra guiada verticalmente que permite realizar ejercicios de fuerza.",
+      "musculos": "Piernas, pecho, hombros y glúteos",
+      "uso": "Sentadillas, press y diferentes ejercicios con barra guiada.",
+      "nivel": "Intermedio",
+      "disponible": true
+    },
+    {
+      "id": 8,
+      "nombre": "Jalón al Pecho",
+      "imagen": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=800&q=80",
+      "categoria": "Espalda",
+      "descripcion": "Máquina de polea alta utilizada principalmente para fortalecer la espalda.",
+      "musculos": "Dorsales, bíceps y hombros",
+      "uso": "Jalar una barra desde arriba hacia la zona superior del pecho.",
+      "nivel": "Todos los niveles",
+      "disponible": true
+    },
+    {
+      "id": 9,
+      "nombre": "Prensa de Piernas",
+      "imagen": "https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=800&q=80",
+      "categoria": "Piernas",
+      "descripcion": "Máquina que permite empujar una plataforma utilizando la fuerza de las piernas.",
+      "musculos": "Cuádriceps, glúteos e isquiotibiales",
+      "uso": "Fortalecimiento del tren inferior mediante resistencia.",
+      "nivel": "Todos los niveles",
+      "disponible": true
+    },
+    {
+      "id": 10,
+      "nombre": "Máquina de Abdominales",
+      "imagen": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
+      "categoria": "Abdomen",
+      "descripcion": "Equipo diseñado para realizar movimientos controlados de contracción abdominal.",
+      "musculos": "Abdominales",
+      "uso": "Fortalecimiento de la zona abdominal mediante resistencia.",
+      "nivel": "Todos los niveles",
+      "disponible": false
+    },
+    {
+      "id": 11,
+      "nombre": "Rack de Sentadillas",
+      "imagen": "https://images.unsplash.com/photo-1581009137042-c552e485697a?auto=format&fit=crop&w=800&q=80",
+      "categoria": "Peso Libre",
+      "descripcion": "Estructura utilizada para colocar una barra y realizar ejercicios con peso libre.",
+      "musculos": "Cuádriceps, glúteos, espalda y abdomen",
+      "uso": "Sentadillas y otros ejercicios con barra.",
+      "nivel": "Intermedio a avanzado",
+      "disponible": true
+    },
+    {
+      "id": 12,
+      "nombre": "Máquina de Extensión de Piernas",
+      "imagen": "https://images.unsplash.com/photo-1584466977773-e625c37cdd50?auto=format&fit=crop&w=800&q=80",
+      "categoria": "Piernas",
+      "descripcion": "Máquina diseñada para realizar extensiones de rodilla con resistencia.",
+      "musculos": "Cuádriceps",
+      "uso": "Fortalecimiento específico de la parte frontal de las piernas.",
+      "nivel": "Todos los niveles",
+      "disponible": true
+    }
+  ]
+}
